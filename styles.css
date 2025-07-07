@@ -45,7 +45,7 @@ body {
 }
 
 .price {
-  background-color: #2ecc71;
+  background-color: rgb(46, 204, 113);
   color: white;
   padding: 10px;
   width: fit-content;
