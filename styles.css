@@ -10,7 +10,7 @@ body {
   background-color: #ffffff;
   padding: 20px;
   width: 700px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .book-library h1 {
@@ -21,6 +21,7 @@ body {
 .book {
   align-items: center;
   background-color: rgb(46, 204, 113);
+	color:rgb(46, 204, 113);
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 5px;
