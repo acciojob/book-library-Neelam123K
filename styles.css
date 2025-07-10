@@ -27,6 +27,8 @@ body {
 }
 
 .book img {
+	justify-content: center;
+	align-items: center;
   width: 150px;
   height: auto;
   margin-right: 30px;
