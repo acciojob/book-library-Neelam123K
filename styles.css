@@ -2,15 +2,16 @@
 body {
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .book-library {
+  width: 80%;
+  margin: 30px auto;
   background-color: #ffffff;
   padding: 20px;
-  width: 700px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .book-library h1 {
@@ -19,38 +20,34 @@ body {
 }
 
 .book {
+  display: flex;
   align-items: center;
-  background-color: rgb(46, 204, 113);
-	color:rgb(46, 204, 113);
-  margin-bottom: 30px;
-  padding: 20px;
-  border-radius: 5px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }
 
 .book img {
-	display:flex;
-	justify-content: center;
-	align-items: center;
   width: 150px;
   height: auto;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
-.info h3 {
+.details h2 {
   margin: 0;
+  font-size: 18px;
 }
 
-.info p {
-  color: #777;
-  margin: 5px 0 15px;
+.details p {
+  color: #777777;
+  margin: 5px 0 15px 0;
 }
 
 .price {
   background-color: #2ecc71;
   color: white;
   padding: 10px;
-  text-align: center;
-  width: 100vh;
+  width: fit-content;
   border-radius: 5px;
   font-weight: bold;
 }
