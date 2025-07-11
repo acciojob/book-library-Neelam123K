@@ -23,7 +23,7 @@ body {
 
 /* Individual Book Block */
 .book {
-  display: flex; /* ✅ Required for image + details side-by-side */
+  display: flex;
   align-items: center;
   margin-bottom: 40px;
   border-bottom: 1px solid #ccc;
@@ -38,23 +38,23 @@ body {
   object-fit: cover;
 }
 
-/* Book Details */
-.details h2 {
+/* Book Details (Fix this selector!) */
+.book-info h2 {
   margin: 0;
   font-size: 18px;
 }
 
-.details p {
-  color: #777777; /* ✅ Author color */
+.book-info p {
+  color: #777777;
   margin: 5px 0 15px 0;
 }
 
 /* Price Tag */
 .price {
-  background-color: #2ecc71; /* ✅ Required green background */
+  background-color: #2ecc71; /* ✅ Required */
   color: white;
   padding: 10px;
-  width: fit-content; /* ✅ Adjusts to content */
+  width: fit-content;
   border-radius: 5px;
   font-weight: bold;
 }
