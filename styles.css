@@ -33,7 +33,6 @@ body {
   object-fit: cover;
 }
 
-/* Book Details (Fix this selector!) */
 .book-info h2 {
   margin: 0;
   font-size: 18px;
@@ -44,7 +43,6 @@ body {
   margin: 5px 0 15px 0;
 }
 
-/* Price Tag */
 .price {
   background-color: #2ecc71;
   color: white;
